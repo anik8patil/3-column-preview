@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --vdark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --vlight-gray: hsl(0, 0%, 95%);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--vlight-gray);
+  color: var(--transparent-white);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.header {
+  position: relative;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.container {
+  width: min(86.4%, 57.5rem);
+  margin: 5.25rem auto;
+}
+
+.heading {
+  color: var(--vlight-gray);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  display: block;
+  margin: 1.5rem 0 1rem;
+}
+
+/* Columns */
+.column {
+  padding: 3rem;
+}
+
+.sedan {
+  background-color: var(--bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+
+.suv {
+  background-color: var(--dark-cyan);
+}
+
+.luxury {
+  background-color: var(--vdark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+/* Button */
+.learn-btn {
+  background-color: var(--vlight-gray);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  letter-spacing: 0.5px;
+  border: 2px solid var(--vlight-gray);
+}
+
+.learn-btn:hover {
+  cursor: pointer;
+  color: var(--vlight-gray);
+  background-color: transparent;
+}
+
+.sedan-color {
+  color: var(--bright-orange);
+}
+
+.suv-color {
+  color: var(--dark-cyan);
+}
+
+.luxury-color {
+  color: var(--vdark-cyan);
+}
+
+/* Footer Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--dark-cyan);
+}
+
+.attribution a {
+  color: var(--vdark-cyan);
+}
+
+.attribution a:hover {
+  color: var(--bright-orange);
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1100px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10.75rem;
+  }
+
+  .sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .learn-btn {
+    margin-top: 5rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
