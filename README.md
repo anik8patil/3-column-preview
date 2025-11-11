@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-faSMQFXnp](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-flexbox-faSMQFXnp)
-- Live Site URL: [https://nakoyawilson.github.io/3-column-preview-card-component/](https://nakoyawilson.github.io/3-column-preview-card-component/)
+- Live Site URL: [https://nakoyawilson.github.io/3-column-preview-card-component/](https://3-column-view.netlify.app/)
 
 ## My process
 
@@ -51,7 +51,6 @@ For future projects I would like to focus on mobile-first workflows.
 
 ## Author
 
-- Website - [Nakoya Wilson](https://nakoyawilson.netlify.app/)
-- Frontend Mentor - [@nakoyawilson](https://www.frontendmentor.io/profile/nakoyawilson)
-- Twitter - [@nakoyawilson](https://twitter.com/nakoyawilson)
-- LinkedIn - [@nakoyawilson](https://www.linkedin.com/in/nakoyawilson/)
+- Website - [Nakoya Wilson](https://aniketpatil.vercel.app/)
+- Frontend Mentor - [@anik8patil](https://www.frontendmentor.io/profile/anik8patil)
+- LinkedIn - [@anik8patil](https://www.linkedin.com/in/anik8patil/)
